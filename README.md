@@ -1,0 +1,2 @@
+# PS6-CHEME-4800-5800-TEMPLATE-Fall-2024
+Template for Problem Set 6 in CHEME 4/5800
