@@ -9,9 +9,7 @@ The objective is to maximize the agent's utility, a function of the quantity of 
 
 The agent can choose to purchase an Apple or an Orange. The state of the environment is the number of Apples and Oranges purchased, i.e., $s = (x_{1},x_{2})$, and the action is to buy an Apple or an Orange. The agent receives a reward for each action. Purchasing an Apple costs $c_{1}$ USD/Apple, and purchasing an Orange costs $c_{2}$ USD/Orange. The agent receives a reward of $r$
 $$
-\begin{equation*}
 r = U(x_{1}, x_{2}) + \lambda \cdot \max\left(0, c_{1}x_{1} + c_{2}x_{2} - I\right)
-\end{equation*}
 $$
 for each combination of Apples and Oranges purchased,
 where $x_{1}$ and $x_{2}$ are the quantities of Apples and Oranges purchased, respectively, $U(x_{1}, x_{2})$ is the agent's utility function, and $\lambda\ll{0}$ is a penalty for exceeding the budget. The parameters associated with the Fruit Decision Task are specified in the `problemsetup.jl` file. (You don't need to modify this file.)
